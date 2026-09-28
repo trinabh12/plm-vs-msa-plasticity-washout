@@ -13,7 +13,7 @@ show cartoon
 hide lines
 bg_color white
 
-# Center the camera strictly on the mutant fragment to hide the rest of the massive WT protein
+# Center the camera strictly on the mutant fragment
 zoom mut_esmfold, buffer=10
 
 # Ray tracing for the final report figure
