@@ -16,7 +16,7 @@ bg_color white
 # Center the camera strictly on the mutant fragment to hide the rest of the massive WT protein
 zoom mut_esmfold, buffer=10
 
-# High-quality ray tracing for the final report figure
+# Ray tracing for the final report figure
 set ray_trace_mode, 1
 set antialias, 2
 png final_superposition.png, dpi=300, width=1920, height=1080
