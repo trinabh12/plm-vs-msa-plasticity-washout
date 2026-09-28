@@ -1,9 +1,9 @@
 name: protein_ai
 
 channels:
+  - conda-forge
   - pytorch
   - nvidia
-  - conda-forge
   - defaults
 
 dependencies:
@@ -16,6 +16,11 @@ dependencies:
   - numpy
   - scikit-learn
   - matplotlib
+  - seaborn             
+  - umap-learn          
+  - pymol-open-source   
+  - requests            
+  - ipykernel           
   - pip
   - pip:
       - transformers
