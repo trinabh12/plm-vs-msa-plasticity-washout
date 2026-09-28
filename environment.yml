@@ -20,7 +20,7 @@ dependencies:
   - umap-learn          
   - pymol-open-source   
   - requests            
-  - ipykerne           
+  - ipykernel           
   - pip
   - pip:
       - transformers
