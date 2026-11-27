@@ -252,10 +252,17 @@ Start Jupyter from the repository root and run the notebook setup cell that adds
 
 ## Citation and Data Sources
 
-Please cite the original ProteinGym, DMS, UniProt, AlphaFold, ESMFold, ESM-2, and assay publications that correspond to the data or method used in a downstream analysis.
+If you use this repository, its data layout, or findings from the accompanying report (*Discovery to Development: AI-Based Protein Structure Prediction and Plasticity Washout*) in downstream work, please cite the relevant datasets, models, and tools below:
 
-This repository does not include an explicit license file. Check the terms of the bundled datasets and original source services before redistribution or publication.
+- **ProteinGym Benchmark & DMS Assays:** Notin et al. (2023/2024), *ProteinGym: Large-Scale Benchmarks for Protein Design and Fitness Prediction* — [PubMed](https://pubmed.ncbi.nlm.nih.gov/38106144/)
+- **BRCA1 Saturation Genome Editing Assay:** Findlay et al. (2018), *Accurate classification of BRCA1 variants with saturation genome editing*, *Nature* — [MaveDB](https://www.mavedb.org/score-sets/urn:mavedb:00000097-o-1)
+- **ESM-2 & ESMFold:** Lin et al. (2023), *Evolutionary-scale prediction of atomic-level protein structure with a language model*, *Science* — [PubMed](https://pubmed.ncbi.nlm.nih.gov/36927031/) | [ESM GitHub](https://github.com/facebookresearch/ESM)
+- **ESM-1v:** Meier et al. (2021), *Language models enable zero-shot prediction of the effects of mutations on protein function*, *NeurIPS* — [NeurIPS Proceedings](https://proceedings.neurips.cc/paper/2021/hash/f51338d736f95dd42427296047067694-Abstract.html)
+- **AlphaFold:** Jumper et al. (2021), *Highly accurate protein structure prediction with AlphaFold*, *Nature*
+- **UniProt:** The UniProt Consortium (2023), *UniProt: the universal protein knowledgebase in 2023*, *Nucleic Acids Research*
+- **FoldX & DynaMut:** Schymkowitz et al. (2005), *The FoldX web server: an online force field*, *Nucleic Acids Research*
 
-## Contributing
+This repository does not include an explicit license file; check the terms of the bundled datasets and external APIs or models before redistribution or publication.
+```[cite: 1, 2, 5, 13]
 
-Contributions should preserve the raw/processed data split, keep large derived artifacts out of source-control patches where possible, and document any new assay naming conventions or notebook outputs.
+
