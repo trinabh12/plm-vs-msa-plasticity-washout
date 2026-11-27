@@ -262,7 +262,5 @@ If you use this repository, its data layout, or findings from the accompanying r
 - **UniProt:** The UniProt Consortium (2023), *UniProt: the universal protein knowledgebase in 2023*, *Nucleic Acids Research*
 - **FoldX & DynaMut:** Schymkowitz et al. (2005), *The FoldX web server: an online force field*, *Nucleic Acids Research*
 
-This repository does not include an explicit license file; check the terms of the bundled datasets and external APIs or models before redistribution or publication.
-```[cite: 1, 2, 5, 13]
 
 
